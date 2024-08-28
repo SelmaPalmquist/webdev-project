@@ -1,0 +1,213 @@
+body{
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+    color: rgb(200, 214, 149) ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+
+.homepage img{
+    float: left;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.homepage h1{
+    margin-left: 100px;
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 200px;
+}
+
+.homepage p{
+    margin-left: 300px;
+    margin-right: 350px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+}
+
+
+
+.gallery h1{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.gallery p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.gallery-images{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+}
+
+
+
+
+.pen-on-paper{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 2%
+}
+
+.pen-drawings{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+}
+
+
+.pen-drawings-two{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+   margin-top: 5%;
+}
+
+
+
+
+
+
+.digitalart h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.digitalart p{
+    display: grid;
+    font-size: 13px;
+    margin-left: 70px;
+}
+
+
+.dig-drawings{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+   margin-top: 2%;
+}
+
+
+.dig-drawings-two{
+    display: flex;
+    width: 100vw;
+   justify-content: space-evenly;
+   margin-top: 5%;
+}
+
+
+
+
+.oil-acrylics{
+    font-size: 80px;
+    text-align: center
+}
+
+
+.can-drawings{
+    display: flex;
+    justify-content: center;
+    gap: 10%
+}
+
+
+
+.morecoming{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+
+
+
+
+.picture-img{
+    float: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 39%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.breakingbad2022{
+        float: left;
+        margin-left: 40px;
+    font-size: 50px;
+        text-align: center;
+        margin-bottom: 2%;
+}
+
+.bb-text{
+    float: left;
+    margin-right: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.bb-text2{
+    float: right;
+    margin-right: 70px;
+    margin-left: 26px;
+    font-size: 18px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    text-align: justify;
+}
+
+
+
+
+
+
+.aboutme img{
+    float: left;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.aboutme h1{
+    margin-left: 670px;
+    font-size: 80px;
+    text-align: justify;
+}
+
+.aboutme p{
+    margin-left: 300px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.aboutme-logo{
+    float: right;
+    margin-right: 25%;
+    animation-name: Slide_Up;
+    animation-duration: 1,4s ease
+}
