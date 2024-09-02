@@ -6,39 +6,59 @@ body{
 }
 
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-* {
-    color: rgb(200, 214, 149) ;
+    font-family: initial;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-.container {
+.navbar {
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
 }
 
-
-.homepage img{
-    float: left;
-    margin-left: 150px;
-    margin-right: 50px;
+.indexContent{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 0.4fr 2fr;
+        grid-template-areas:
+          "photo header"
+          "photo text"
 }
 
-.homepage h1{
-    margin-left: 100px;
-    font-size: 80px;
-    margin-bottom: 10px;
-    margin-top: 200px;
+.indexHeader{
+    text-align: justify;
+           margin-left: 5%;
+           margin-top: 5%;
+           font-size: 50px;
+            grid-area: header; 
 }
 
-.homepage p{
-    margin-left: 300px;
-    margin-right: 350px;
-        font-size: 18px;
-        color: rgb(255, 255, 255);
+.mail-n-number{
+    grid-area: header; 
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
+.indexText{
+    font-size: 16px;
+         margin-left: 5%;
+         margin-right: 15%;
+        list-style-type: none;  
+        grid-area: text;    
+        margin-top: -3%;
+}
+
+.selfie{
+    margin-left: 15%;
+    margin-top: 10%;
+    grid-area: photo;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 20px;
+    margin-bottom: -1%;
+}
 
 
 .gallery h1{
@@ -61,8 +81,6 @@ body{
 }
 
 
-
-
 .pen-on-paper{
     font-size: 80px;
     text-align: center;
@@ -82,11 +100,6 @@ body{
    justify-content: space-evenly;
    margin-top: 5%;
 }
-
-
-
-
-
 
 .digitalart h1{
     font-size: 80px;
@@ -116,11 +129,9 @@ body{
 }
 
 
-
-
 .oil-acrylics{
     font-size: 80px;
-    text-align: center
+    text-align: center;
 }
 
 
@@ -128,35 +139,6 @@ body{
     display: flex;
     justify-content: center;
     gap: 10%
-}
-
-
-
-.morecoming{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 8%;
-}
-
-
-
-
-
-.picture-img{
-    float: left;
-    margin-left: 70px;
-    margin-right: 70px;
-    width: 39%;
-    height: auto;
-    margin-top: 4%;
-}
-
-.breakingbad2022{
-        float: left;
-        margin-left: 40px;
-    font-size: 50px;
-        text-align: center;
-        margin-bottom: 2%;
 }
 
 .bb-text{
@@ -181,10 +163,6 @@ body{
 }
 
 
-
-
-
-
 .aboutme img{
     float: left;
     margin-left: 70px;
@@ -205,9 +183,4 @@ body{
     text-align: center;
 }
 
-.aboutme-logo{
-    float: right;
-    margin-right: 25%;
-    animation-name: Slide_Up;
-    animation-duration: 1,4s ease
-}
+
